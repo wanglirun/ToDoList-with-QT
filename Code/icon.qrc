@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icon/highPriority.png</file>
+        <file>icon/lowPriority.png</file>
+        <file>icon/midPriority.png</file>
+        <file>icon/calendar.png</file>
+        <file>icon/edit.png</file>
+        <file>icon/pushTaskToSet.png</file>
+        <file>icon/setDescription.png</file>
+        <file>icon/setDueTime.png</file>
+        <file>icon/setNote.png</file>
+        <file>icon/setRemindTime.png</file>
+        <file>icon/refresh.png</file>
+        <file>icon/sort.png</file>
+        <file>icon/addGroup.png</file>
+        <file>icon/myFrontPage.png</file>
+        <file>icon/myGroup.png</file>
+        <file>icon/myTask.png</file>
+        <file>icon/sortByCreateTime.png</file>
+        <file>icon/sortByPriority.png</file>
+    </qresource>
+</RCC>

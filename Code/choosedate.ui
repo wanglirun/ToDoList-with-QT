@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseDate</class>
+ <widget class="QWidget" name="ChooseDate">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>358</width>
+    <height>554</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>358</width>
+    <height>554</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>358</width>
+    <height>554</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>358</width>
+     <height>554</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>358</width>
+     <height>554</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>358</width>
+     <height>554</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="tabShape">
+    <enum>QTabWidget::Rounded</enum>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <property name="elideMode">
+    <enum>Qt::ElideMiddle</enum>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string notr="true">到期时间</string>
+    </attribute>
+    <widget class="QCalendarWidget" name="selectDueDate">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>20</y>
+       <width>341</width>
+       <height>371</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>430</y>
+       <width>327</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="dueCancelButton">
+        <property name="text">
+         <string>取消</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>10</width>
+          <height>10</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="dueSureButton">
+        <property name="text">
+         <string>确定</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="RemindTime">
+    <attribute name="title">
+     <string notr="true">提醒时间</string>
+    </attribute>
+    <widget class="QCalendarWidget" name="remindDateEdit">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>20</y>
+       <width>341</width>
+       <height>371</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>429</y>
+       <width>327</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="remindCancelButton">
+        <property name="text">
+         <string>取消</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>10</width>
+          <height>10</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="remindSureButton">
+        <property name="text">
+         <string>确定</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>390</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>提醒时间</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTimeEdit" name="RemindTimeEdit">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="displayFormat">
+         <string>hh:mm</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
